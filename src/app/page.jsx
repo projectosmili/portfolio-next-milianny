@@ -8,8 +8,7 @@ import SocialLinks from "../components/SocialLinks";
 
 export default function HomePage() {
   return (
-    <div>
-      <SocialLinks />
+    <div className="page-shell">
       <a href="#main-content" className="skip-link">Pular para o conteúdo principal</a>
       <Navbar />
       <main id="main-content">
