@@ -37,6 +37,7 @@ export default function Hero() {
               <span>Stack moderna para aplicações rápidas, organizadas e fáceis de evoluir.</span>
             </article>
         <div> </div>
+        
 
             </div>
             <a href="#contact" className={styles.ctaButton}>

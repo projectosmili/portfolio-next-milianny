@@ -18,6 +18,15 @@ export default function About() {
             </p>
 
             <p>
+              Minha base vem do design gráfico e da fotografia, áreas que
+              desenvolveram meu olhar estético, minha sensibilidade visual e
+              minha atenção aos detalhes. Ao longo do meu caminho, também criei
+              uma marca de roupas, experiência que ampliou minha visão sobre
+              identidade, comunicação, branding e conexão com o público por meio
+              da imagem e da proposta de valor
+            </p>
+
+            <p>
               Tenho excelentes habilidades de relacionamento interpessoal e
               facilidade para trabalhar em equipe, contribuindo com valor,
               comprometimento e dedicação em cada projeto. Fora do trabalho, me
@@ -29,20 +38,7 @@ export default function About() {
             </p>
 
             <p>
-              Minha base vem do design gráfico e da fotografia, áreas que
-              desenvolveram meu olhar estético, minha sensibilidade visual e
-              minha atenção aos detalhes. Ao longo do meu caminho, também criei
-              uma marca de roupas, experiência que ampliou minha visão sobre
-              identidade, comunicação, branding e conexão com o público por meio
-              da imagem e da proposta de valor.
-            </p>
-
-            <p>
-              Além disso, iniciei meus estudos em Design de Obras Civis, uma
-              formação que, mesmo não tendo sido concluída, contribuiu para
-              fortalecer minha percepção de estrutura, organização,
-              planejamento e funcionalidade — elementos que hoje também levo
-              para minha forma de pensar projetos.
+          
             </p>
           </div>
         </div>
