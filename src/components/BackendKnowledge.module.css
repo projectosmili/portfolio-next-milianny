@@ -1,0 +1,207 @@
+.section {
+  padding-block: var(--section-space);
+}
+
+.header {
+  max-width: 860px;
+  margin-bottom: 2rem;
+}
+
+.header h2 {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  line-height: 1.1;
+}
+
+.header p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.card {
+  border: 1px solid var(--border);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03));
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.cardHeader {
+  margin-bottom: 1rem;
+}
+
+.cardHeader h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.2rem;
+}
+
+.cardHeader p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.graphList,
+.journalList,
+.experienceList,
+.readingList {
+  display: grid;
+  gap: 1rem;
+}
+
+.graphItem,
+.journalItem,
+.experienceItem,
+.readingItem {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.graphTitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.graphTitleRow span {
+  color: var(--accent-soft);
+  font-size: 0.9rem;
+}
+
+.graphItem p,
+.journalItem li,
+.experienceItem p,
+.readingItem p {
+  color: var(--text-muted);
+  margin: 0.35rem 0 0;
+}
+
+.metaGroup {
+  display: grid;
+  gap: 0.7rem;
+  margin-top: 0.8rem;
+}
+
+.metaGroup h4 {
+  margin: 0 0 0.35rem;
+  font-size: 0.95rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chips span,
+.aiPill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+}
+
+.journalItem ul {
+  margin: 0.6rem 0 0;
+  padding-left: 1rem;
+}
+
+.skillList {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.skillRow {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.skillName {
+  font-weight: 600;
+}
+
+.barTrack {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.barTrack span {
+  width: 100%;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.barFilled {
+  background: linear-gradient(90deg, var(--accent-soft), var(--accent-2)) !important;
+}
+
+.aiGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.timeline {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.timelineItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--text-primary);
+}
+
+.timelineDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  box-shadow: 0 0 0 4px rgba(246, 200, 145, 0.18);
+}
+
+.treeWrap {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.treeNode {
+  padding: 0.55rem 0.7rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.treeChildren {
+  margin-left: 1rem;
+  margin-top: 0.45rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+@media (max-width: 760px) {
+  .card {
+    padding: 1.2rem;
+  }
+
+  .graphTitleRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

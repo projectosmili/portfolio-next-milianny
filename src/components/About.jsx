@@ -6,39 +6,55 @@ export default function About() {
           <span className="about-label">Sobre mim</span>
 
           <h2 className="about-title">
-            Estudante de Sistemas para Internet | Dados, Mobile e Back-end
+            Back-end Developer (Go) | Estudante de Sistemas para Internet
           </h2>
 
           <div className="about-text">
             <p>
-              Atualmente dedicada à minha formação, ampliando meus conhecimentos
-              em tecnologias móveis e análise de dados. Quando foco em um
-              objetivo, aprendo com rapidez, agilidade e atenção aos detalhes,
-              sempre em aprendizado contínuo.
+              Atualmente atuo como <strong>Desenvolvedora Back-end</strong>,
+              desenvolvendo e evoluindo APIs em <strong>Go (Golang)</strong>,
+              criando integrações, implementando regras de negócio e
+              contribuindo para arquiteturas escaláveis baseadas em eventos para
+              aplicações web.
             </p>
 
             <p>
-              Minha base vem do design gráfico e da fotografia, áreas que
-              desenvolveram meu olhar estético, minha sensibilidade visual e
-              minha atenção aos detalhes. Ao longo do meu caminho, também criei
-              uma marca de roupas, experiência que ampliou minha visão sobre
-              identidade, comunicação, branding e conexão com o público por meio
-              da imagem e da proposta de valor
+              Sou estudante de <strong>Sistemas para Internet</strong> e mantenho
+              uma rotina constante de aprendizado para aprofundar meus
+              conhecimentos em desenvolvimento back-end, arquitetura de
+              software, bancos de dados e boas práticas de engenharia.
             </p>
 
             <p>
-              Tenho excelentes habilidades de relacionamento interpessoal e
-              facilidade para trabalhar em equipe, contribuindo com valor,
-              comprometimento e dedicação em cada projeto. Fora do trabalho, me
-              encanta conversar sobre a vida, as pessoas, as emoções, o
-              crescimento pessoal e como os seres humanos se comportam e
-              evoluem com o tempo. Gosto de viajar, fotografia, dançar, cantar
-              e escrever sobre temas que me ajudam a manter a curiosidade e a
-              conexão com o mundo ao meu redor.
+              Minha trajetória é marcada pela capacidade de aprender rapidamente,
+              adaptar-me a novos desafios e colaborar em equipe. Acredito que
+              software de qualidade é construído por meio de comunicação,
+              colaboração e melhoria contínua.
             </p>
 
             <p>
-          
+              Antes da tecnologia, atuei com design gráfico, fotografia e
+              empreendedorismo, experiências que fortaleceram minha criatividade,
+              atenção aos detalhes, visão de produto e foco na experiência do
+              usuário. Também fundei uma marca de roupas, onde desenvolvi
+              habilidades em branding, comunicação e gestão de negócios.
+            </p>
+
+            <p>
+              Tenho interesse especial por desenvolvimento back-end, APIs,
+              arquitetura de software, integrações, sistemas distribuídos e
+              soluções escaláveis. Também mantenho interesse em desenvolvimento
+              mobile e análise de dados, áreas que complementam minha visão sobre
+              produtos digitais.
+            </p>
+
+            <p>
+              Estou sempre aberta a novos desafios, oportunidades de aprendizado
+              e conexões com pessoas apaixonadas por tecnologia.
+            </p>
+
+            <p>
+              <strong>Vamos construir algo incrível juntos?</strong>
             </p>
           </div>
         </div>

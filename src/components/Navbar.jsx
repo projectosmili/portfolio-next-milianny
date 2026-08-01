@@ -11,6 +11,7 @@ export default function Navbar() {
         <nav aria-label="Navegação principal">
           <ul className="nav-links" role="list">
             <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#backend-knowledge">Backend</a></li>
             <li><a href="#skills">Stack</a></li>
             <li><a href="#projects">Projetos</a></li>
             <li><a href="#contact">Contato</a></li>
