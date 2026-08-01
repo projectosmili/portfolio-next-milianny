@@ -6,55 +6,64 @@ export default function About() {
           <span className="about-label">Sobre mim</span>
 
           <h2 className="about-title">
-            Back-end Developer (Go) | Estudante de Sistemas para Internet
+            Back-end Developer (Go) | Construindo soluções para produtos digitais
           </h2>
 
           <div className="about-text">
             <p>
               Atualmente atuo como <strong>Desenvolvedora Back-end</strong>,
-              desenvolvendo e evoluindo APIs em <strong>Go (Golang)</strong>,
-              criando integrações, implementando regras de negócio e
-              contribuindo para arquiteturas escaláveis baseadas em eventos para
-              aplicações web.
+              contribuindo para a evolução de um produto em produção por meio do
+              desenvolvimento de APIs em <strong>Go (Golang)</strong>,
+              implementação de regras de negócio e integrações entre serviços.
             </p>
 
             <p>
-              Sou estudante de <strong>Sistemas para Internet</strong> e mantenho
-              uma rotina constante de aprendizado para aprofundar meus
-              conhecimentos em desenvolvimento back-end, arquitetura de
-              software, bancos de dados e boas práticas de engenharia.
+              Ao longo dessa experiência, participei da implementação de novos
+              fluxos de notificações, integrações com serviços externos,
+              processamento assíncrono, webhooks, tarefas agendadas (cron jobs)
+              e melhorias voltadas à escalabilidade, confiabilidade e manutenção
+              do sistema. Cada desafio reforçou a importância de compreender o
+              negócio antes de escrever código e de construir soluções simples
+              para problemas complexos.
             </p>
 
             <p>
-              Minha trajetória é marcada pela capacidade de aprender rapidamente,
-              adaptar-me a novos desafios e colaborar em equipe. Acredito que
-              software de qualidade é construído por meio de comunicação,
-              colaboração e melhoria contínua.
+              Estou cursando <strong>Sistemas para Internet</strong> e acredito que
+              a prática diária é o melhor complemento para a formação acadêmica.
+              Busco evoluir constantemente.
             </p>
 
             <p>
-              Antes da tecnologia, atuei com design gráfico, fotografia e
-              empreendedorismo, experiências que fortaleceram minha criatividade,
-              atenção aos detalhes, visão de produto e foco na experiência do
-              usuário. Também fundei uma marca de roupas, onde desenvolvi
-              habilidades em branding, comunicação e gestão de negócios.
+              Minha trajetória profissional começou muito antes da tecnologia.
+              Trabalhei com design gráfico, fotografia e empreendedorismo,
+              além de fundar minha própria marca de roupas. Essas experiências
+              desenvolveram minha criatividade, visão de produto, comunicação,
+              capacidade de adaptação e olhar atento aos detalhes — habilidades
+              que hoje levo para o desenvolvimento de software.
             </p>
 
             <p>
-              Tenho interesse especial por desenvolvimento back-end, APIs,
-              arquitetura de software, integrações, sistemas distribuídos e
-              soluções escaláveis. Também mantenho interesse em desenvolvimento
-              mobile e análise de dados, áreas que complementam minha visão sobre
-              produtos digitais.
+              Mais do que escrever código, gosto de entender como os sistemas
+              funcionam, como diferentes componentes se conectam e como pequenas
+              decisões técnicas impactam a experiência de milhares de usuários.
             </p>
 
             <p>
-              Estou sempre aberta a novos desafios, oportunidades de aprendizado
-              e conexões com pessoas apaixonadas por tecnologia.
+              Fora do trabalho, adoro conversas sobre a vida, as pessoas,
+              as emoções, o crescimento e a maneira como os seres humanos se
+              comportam e evoluem ao longo do tempo. Gosto de viajar, fotografar,
+              dançar, cantar e escrever — atividades que me ajudam a manter a
+              curiosidade e a conexão com o mundo ao meu redor.
             </p>
 
             <p>
-              <strong>Vamos construir algo incrível juntos?</strong>
+              Estou sempre em busca de desafios que me permitam aprender,
+              colaborar com equipes talentosas e construir produtos que gerem
+              impacto real.
+            </p>
+
+            <p>
+              <strong>Vamos construir algo incrível juntos? 🚀</strong>
             </p>
           </div>
         </div>

@@ -1,20 +1,23 @@
 "use client";
 
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <header className="navbar" role="banner">
       <div className="nav-container">
-        <a className="logo" href="#home" aria-label="Início do portfólio">
+        <Link className="logo" href="/" aria-label="Início do portfólio">
           <img src="/images/logo.png" alt="Logo Radia" />
-        </a>
+        </Link>
 
         <nav aria-label="Navegação principal">
           <ul className="nav-links" role="list">
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#backend-knowledge">Backend</a></li>
-            <li><a href="#skills">Stack</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#contact">Contato</a></li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/projects">Projects</Link></li>
+            <li><Link href="/journal">Journal</Link></li>
+            <li><Link href="/roadmap">Backend Roadmap</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
           </ul>
         </nav>
       </div>

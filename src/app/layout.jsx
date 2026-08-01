@@ -2,6 +2,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import ParticlesBackground from "../components/ParticlesBackground";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -18,7 +20,11 @@ export default function RootLayout({ children }) {
     <html lang="pt-BR">
       <body className={inter.className}>
         <ParticlesBackground />
-        {children}
+        <div className="page-shell">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
